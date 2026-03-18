@@ -1,0 +1,1 @@
+public record ObterPedidoPorIdQuery(Guid Id) : IRequest<Pedido>;

@@ -1,0 +1,1 @@
+public record ListarProdutosQuery() : IRequest<List<Produto>>;
