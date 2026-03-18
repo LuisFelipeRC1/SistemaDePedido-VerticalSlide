@@ -1,0 +1,1 @@
+public record CriarProdutoCommand(Guid Id, string Nome, decimal Preco) : IRequest<Guid>;
